@@ -1,0 +1,6 @@
+.navbar { padding-top: 8px; }
+.nav-link {
+  color: #D8D8D8;
+  font-size: .9rem;
+  text-transform: uppercase;
+}
