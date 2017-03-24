@@ -1,9 +1,24 @@
 footer {
   bottom: 0;
   width: 100%;
-  height: 300px;
-  background-color: #302C39;
-  color: #D8D8D8;
+  height: 238px;
+  color: #BFBEBE;
   padding: 20px 0px 12px;
-  p { line-height: 1rem; }
+  font-size: .875rem;
+  background-size: auto 400px;
 }
+footer p { color: #BFBEBE; font-size: .875rem; }
+footer a { color: #BFBEBE; }
+footer a:link { color: #BFBEBE; }
+footer a:focus { color: #BFBEBE; }
+footer a:visited { color: #BFBEBE; }
+footer a:hover { color: #B68000; }
+footer a:active { color: #B68000; }
+footer p .active { color: #B68000; }
+
+footer ul { padding-left: 0; }
+footer ul li { display: inline-block; padding-right: .875rem; }
+
+.footer-bg { background: #302C39; height: 50px; bottom: 0; left: 0;}
+.footer-logo { background: url('/images/deadbolt-logo-color.svg') no-repeat top left; background-position: 2% 8%; height: 345px; padding-top: 83px; }
+.footer-hr { border-top: .5px solid #BFBEBE; text-align: center; }
