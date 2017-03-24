@@ -1,16 +1,21 @@
-body { display: flex; min-height: 100vh; flex-direction: column; background-color: #270E24; color: #D8D8D8; }
-#content { flex: 1; }
+body { display: flex; min-height: 100vh; flex-direction: column; background-color: #1E0C1C; color: #D8D8D8; }
+#content { flex: 1; border-left: solid; border-right: solid; border-color: #190917; border-width: 1px;}
 
 /*hr { display: block; height: 1px; width: 70%; border: 0; border-top: 1px solid #B68000; margin: 1em; padding: 10px; text-align: center; margin: 0 auto; }*/
 
 h1, h2, h3, h4, h5, h6 { font-family: 'League Gothic'; font-weight: normal; }
-h1 { color: #FFFFFF; font-size: 72px; }
+h1 { color: #FFFFFF; font-size: 84px; line-height: 94px; letter-spacing: 6px; }
 h2 { color: #B68000; font-size: 36px; letter-spacing: 3.5px; font-weight: lighter; }
 p { color: #D8D8D8; }
 
+.no_underline:hover { border-bottom: none; }
+
 /* BUTTONS */
-.btn-primary { background-color: transparent; border-color: #B68000; border-radius: 2px; text-transform: uppercase; color: #B68000; padding: 12px 30px; }
+.btn-primary { background-color: transparent; border-color: #B68000; border-radius: 2px; text-transform: uppercase; color: #B68000; padding: 12px 30px; background-color: rgba(0,0,0,0.4); }
 .btn-primary:hover { background-color: #B68000; border-color: #B68000; }
+
+/* OVERWRITE BOOTSTRAP */
+.tab-content { font-weight: lighter; }
 
 /* CUSTOM */
 /*.img-section { height: 540px; position: relative; }*/
@@ -37,4 +42,7 @@ p { color: #D8D8D8; }
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+.img-border {
+  border: 2px solid #B68000; outline: 1px solid #B68000; outline-offset: 5px;
 }

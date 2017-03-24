@@ -45,10 +45,10 @@
             <a class="" href="#">Private Events</a>
           </li>
           <li class="nav-link">
-            <a class="" href="events.html">Events</a>
+            <a href="events.html">Events</a>
           </li>
           <li class="nav-link">
-            <a href="menu.html">Menu</a>
+            <a href="menu.html" class="active">Menu</a>
           </li>
           <!-- LOGO NAV BRAND -->
           <li class="navbar-brand float-left">
@@ -59,49 +59,101 @@
         </ul>
       </div>
       <div class="row">
-        <div class="col hero">
+        <div class="col hero-menu">
           <div class="hero-content">
-            <img src="./images/hero-logo.svg" class="text-center img-fluid">
-            <a class="btn btn-primary btn-hero-home" href="#" role="button">See Our Menu</a>
+            <h1 class="text-uppercase mb-0">Menu</h1>
+            <a class="btn btn-primary mt-1" href="#" role="button">Download Menu</a>
           </div>
         </div>
       </div>
       <div class="row py-5 justify-content-md-center">
         <div class="col col-md-6 text-center">
-          <img src="./images/video-fpo.jpg" class="video-frame img-fluid">
-          <p class="pt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#food" role="tab">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#cocktails" role="tab">Cocktails</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#beer" role="tab">Beer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#wine" role="tab">Wine</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <!-- FOOD -->
+            <div class="tab-pane active" id="food" role="tabpanel">
+              <p class="pt-4"><strong>chicago char dog</strong><br/>6.5</p>
+              <p><strong>garlic herb fries</strong><br/>5</p>
+              <p><strong>buffalo chicken sandwich</strong><br/>7</p>
+              <p><strong>griddled butter burger</strong><br/>8</p>
+              <p><strong>hand-breaded chicken nuggets</strong><br/>6 pc &nbsp;6.5 &nbsp;|&nbsp; 9 pc &nbsp;9</p>
+              <br/>
+              <p><strong>kitchen hours</strong><br/>Sun - Fri until 1 am &nbsp;|&nbsp; Sat until 2 am</p>
+            </div>
+
+            <!-- COCKTAILS -->
+            <div class="tab-pane" id="cocktails" role="tabpanel">
+              <p class="pt-4"><strong>pisco sour &nbsp;11</strong><br/>control pisco . brown butter .  cinnamon . egg white . citrus . baking spice</p>
+              <p><strong>jibroni &nbsp;11</strong><br/>death's door gin . galliano autentico + aperitivo . orange</p>
+              <p><strong>i can’t even... &nbsp;11</strong><br/>stoli *gf . lime . D.B.G.B . angostura</p>
+              <p><strong>spiced paloma &nbsp;11</strong><br/>libélula . ancho reyes . banhez . lime . grapefruit</p>
+              <p><strong>bull + sand &nbsp;11</strong><br/>glenlivet reserve . punt e mes .  maraschino . red bull tangerine</p>
+              <p><strong>collins &nbsp;11</strong><br/>aviation gin . feel good tea . sugar . lemon . CO2</p>
+              <p><strong>millennial mudslide &nbsp;11</strong><br/>absolut vodka . coffee . c.r.e.a.m . spices . NO2</p>
+              <p><strong>chronic + tonic &nbsp;11</strong><br/>booze . west coast dank tonic . lime</p>
+              <p><strong>horse's neck &nbsp;11</strong><br/>hennessy vsop . ginger + honey . lemon . angostura</p>
+              <p><strong>rum raisin old fashioned &nbsp;11</strong><br/>bayou &amp; bacardi 8 rum . raisin . honey . aromatic bitters . orange oils</p>
+              <p><strong>brojito &nbsp;11</strong><br/>sailor jerry spiced rum . lime . sugar . mint . “champagne”</p>
+              <p><strong>city pigeon &nbsp;11</strong><br/>mount gay black barrel rum . hillbilly "campari" . tropical gomme . mint</p>
+            </div>
+
+            <!-- BEER -->
+            <div class="tab-pane" id="beer" role="tabpanel">
+              <h3 class="mt-4">DRAFT</h3>
+              <p><strong>old style</strong> . 3 &nbsp;|&nbsp; 12</p>
+              <p><strong>old man grumpy</strong> . 6</p>
+              <p><strong>founders oatmeal stout</strong> . 7</p>
+              <p><strong>vandermill (rotating)</strong> . 7</p>
+              <p><strong>IPA on draft</strong> . 6</p>
+
+              <h3 class="mt-4">ALUMINIUM</h3>
+              <p><strong>miller high life</strong> . 4</p>
+              <p><strong>old style light</strong> . 4</p>
+              <p><strong>brooklyn lager</strong> . 5</p>
+              <p><strong>goose island 312 wheat</strong> . 6</p>
+              <p><strong>founders all day</strong> . 6</p>
+              <p><strong>bell's amber ale</strong> . 6</p>
+              <p><strong>boulevard tropical</strong> . 6</p>
+              <p><strong>seattle semi dry cider</strong> . 8</p>
+              <p><strong>4 hands cast iron oatmeal brown</strong> . 6</p>
+            </div>
+
+            <!-- WINE -->
+            <div class="tab-pane" id="wine" role="tabpanel">
+              <p class="mt-4"><strong>deadbolt house blends</strong><br/>8 . glass</p>
+              <p><strong>chandon sparkling rosé (187ml)</strong><br/>14</p>
+              <p><strong>chandon champagne (187ml)</strong><br/>14</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col p-0">
           <div class="">
-            <img src="/images/section-record.jpg" class="img-section img-fluid w-100">
+            <img src="/images/menu-video-fpo.png" class="img-section img-fluid w-100">
           </div>
         </div>
       </div>
       <div class="row py-5 justify-content-md-center">
         <div class="col col-md-6 text-center">
-          <img src="/images/icon-music.svg" class="pb-4">
-          <h2 class="text-uppercase mb-0">Live music. 7 nights a week.</h2>
-          <p class="pt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
-          <button type="button" class="btn btn-primary">See Our Events</button>
-        </div>
-      </div>
-      <div class="row pb-5">
-        <div class="col text-center">
-          <hr class="db-hr"></hr>
-          <h2 class="text-uppercase pt-2 pb-4">in the press</h2>
-          <div class="row justify-content-md-center">
-            <div class="col col-md-2">
-              <img src="/images/press-thrillist.svg" class="img-fluid">
-            </div>
-            <div class="col col-md-2">
-              <img src="/images/press-zagat.svg" class="img-fluid">
-            </div>
-            <div class="col col-md-2">
-              <img src="/images/press-eater.svg" class="img-fluid">
-            </div>
-          </div>
+          <h2 class="text-uppercase">Final Call to Action Here</h2>
+          <button type="button" class="btn btn-primary">BUTTON TEXT HERE</button>
         </div>
       </div>
 

@@ -12,7 +12,7 @@ footer a { color: #BFBEBE; }
 footer a:link { color: #BFBEBE; }
 footer a:focus { color: #BFBEBE; }
 footer a:visited { color: #BFBEBE; }
-footer a:hover { color: #B68000; }
+footer a:hover { color: #B68000; border-width: 1px; }
 footer a:active { color: #B68000; }
 footer p .active { color: #B68000; }
 
@@ -21,4 +21,4 @@ footer ul li { display: inline-block; padding-right: .875rem; }
 
 .footer-bg { background: #302C39; height: 50px; bottom: 0; left: 0;}
 .footer-logo { background: url('/images/deadbolt-logo-color.svg') no-repeat top left; background-position: 2% 8%; height: 345px; padding-top: 83px; }
-.footer-hr { border-top: .5px solid #BFBEBE; text-align: center; }
+.footer-hr { border-top: .5px solid #190917; text-align: center; }
