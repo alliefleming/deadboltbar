@@ -6,7 +6,9 @@
 .navbar-social li a { color: #BFBEBE; padding-left: 0; }
 a { color: #BFBEBE; }
 a:active { color: #BFBEBE; }
-a:hover { color: #B68000; padding-left: 0; text-decoration: none; border-bottom: solid; border-radius: 1px; border-width: 2px;}
+a:hover { color: #B68000; text-decoration: none; border-bottom: solid; border-radius: 1px; border-width: 2px;}
 a:active { color: #B68000; }
 
 .active { font-weight: bolder; border-bottom: solid; border-color: #B68000; border-radius: 1px; border-width: 2px; }
+
+.nav-mobile { background-color: transparent; }

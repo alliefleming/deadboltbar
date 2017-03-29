@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/components/normalize.css/normalize.css">
     <link rel="stylesheet" href="assets/fonts/league-gothic/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/hero.css">
@@ -16,7 +17,8 @@
   </head>
   <body>
     <div class="container" id="content">
-      <div class="navbar p-0 pt-3">
+      <!-- TOP NAV DESKTOP -->
+      <div class="navbar p-0 pt-3 hidden-md-down">
         <ul class="p-0">
           <!-- SOCIAL LINKS -->
           <li class="social-link">
@@ -36,16 +38,16 @@
           </li>
           <!-- NAVIGATION LINKS -->
           <li class="nav-link">
-            <a class="" href="#">Contact</a>
+            <a href="contact.html">Contact</a>
           </li>
           <li class="nav-link">
-            <a class="" href="press.html">Press</a>
+            <a href="press.html">Press</a>
           </li>
           <li class="nav-link">
-            <a class="" href="#">Private Events</a>
+            <a href="private-events.html">Private Events</a>
           </li>
           <li class="nav-link">
-            <a class="" href="events.html">Events</a>
+            <a href="events.html">Events</a>
           </li>
           <li class="nav-link">
             <a href="menu.html">Menu</a>
@@ -58,8 +60,29 @@
           </li>
         </ul>
       </div>
+
+      <!-- TOP NAV MOBILE -->
+      <div class="nav-mobile mt-3">
+        <a href="index.html" class="no_underline float-left hidden-lg-up">
+          <img src="./images/deadbolt-logo.svg" class="img-fluid"/>
+        </a>
+        <ul class="nav hidden-lg-up float-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link no_underline" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i> MENU</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- HERO -->
       <div class="row">
-        <div class="col hero">
+        <div class="col hero hero-home">
           <div class="hero-content">
             <img src="./images/hero-logo.svg" class="text-center img-fluid">
             <a class="btn btn-primary btn-hero-home" href="#" role="button">See Our Menu</a>
@@ -69,7 +92,7 @@
       <div class="row py-5 justify-content-md-center">
         <div class="col col-md-6 text-center">
           <img src="./images/video-fpo.jpg" class="video-frame img-fluid">
-          <p class="pt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+          <h2 class="text-white text-uppercase pt-2">Live Music. Good Food. Good Drinks</h2>
         </div>
       </div>
       <div class="row">
@@ -82,29 +105,38 @@
       <div class="row py-5 justify-content-md-center">
         <div class="col col-md-6 text-center">
           <img src="/images/icon-music.svg" class="pb-4">
-          <h2 class="text-uppercase mb-0">Live music. 7 nights a week.</h2>
-          <p class="pt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
-          <button type="button" class="btn btn-primary">See Our Events</button>
+          <h2 class="text-uppercase mb-0">Live Music. Weekly.</h2>
+          <p class="pt-2">Whether you want Soul with your Old Style or an Old Fashioned with your rock music, Deadbolt lets you jam out to your favorite music while throwing back a few in Logan Square.</p>
+          <a class="btn btn-primary" href="events.html" role="button">See Our Events</a>
         </div>
       </div>
+
+      <!-- PRESS SUBFOOTER -->
       <div class="row pb-5">
         <div class="col text-center">
           <hr class="db-hr"></hr>
-          <h2 class="text-uppercase pt-2 pb-4">in the press</h2>
+          <h2 class="text-uppercase pt-2 pb-4">In the Press</h2>
           <div class="row justify-content-md-center">
             <div class="col col-md-2">
-              <img src="/images/press-thrillist.svg" class="img-fluid">
+              <a href="http://bit.ly/deadbolt-press-thrillist" class="no_underline">
+                <img src="/images/press-thrillist.svg" class="img-fluid">
+              </a>
             </div>
             <div class="col col-md-2">
-              <img src="/images/press-zagat.svg" class="img-fluid">
+              <a href="http://bit.ly/deadbolt-press-zagat" class="no_underline">
+                <img src="/images/press-zagat.svg" class="img-fluid">
+              </a>
             </div>
             <div class="col col-md-2">
-              <img src="/images/press-eater.svg" class="img-fluid">
+              <a href="http://bit.ly/deadbolt-press-eater" class="no_underline">
+                <img src="/images/press-eater.svg" class="img-fluid">
+              </a>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- FOOTER -->
       <div class="footer-logo">
         <footer class="mt-4">
             <div class="row">
@@ -143,7 +175,7 @@
             <hr class="footer-hr"></hr>
             <div class="row">
               <div class="col text-center">
-                <p class="mb-0">&#169; 2017 Deadbolt Bar Chicago. All Rights Reserved. Created in <a href="http://bit.ly/oc-webdesign-allie-fleming" class="active"> California.</a></p>
+                <p class="mb-0">&#169; 2017 Deadbolt Bar Chicago. All Rights Reserved. Created in <a href="http://bit.ly/oc-webdesign-allie-fleming" class="active"> California</a></p>
               </div>
             </div>
         </footer>
