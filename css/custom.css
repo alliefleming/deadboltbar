@@ -1,19 +1,19 @@
+html { font-size: 80%; }
 body { display: flex; min-height: 100vh; flex-direction: column; background-color: #1E0C1C; color: #D8D8D8;
-  font-family: 'Abel', sans-serif; letter-spacing: 1px;
-}
+  font-family: 'Abel', sans-serif; letter-spacing: 1px; }
 #content { flex: 1; border-left: solid; border-right: solid; border-color: #190917; border-width: 1px;}
 
 h1, h2, h3, h4, h5, h6 { font-family: 'League Gothic'; font-weight: normal; }
 h1 { color: #FFFFFF; font-size: 5.25rem; line-height: 5.875rem; letter-spacing: 6px; }
 h2 { color: #B68000; font-size: 2.25rem; letter-spacing: 3.5px; font-weight: lighter; }
-h3 { color: #B68000; letter-spacing: 3.5px; }
-p { color: #D8D8D8; }
+h3 { color: #B68000; font-size: 2rem; letter-spacing: 3.5px; }
+p { color: #D8D8D8; font-size: 1rem; }
 
-.display-4 { font-size: 3.5rem; line-height: 3.875rem; }
+.display-4 { font-size: 3.2rem; line-height: 3.5rem; }
 .nav-tabs { border-bottom: 1px solid #B68000; padding-bottom: .875rem; }
-.nav-tabs .nav-link { border: 0px transparent; font-size: 1.1rem; }
-.nav-tabs .nav-link:hover { border-style: none; padding-left: 1em; font-weight: bolder; }
-.nav-tabs .nav-link.active { color: #D8D8D8; background-color: transparent; border-style: none; }
+.nav-tabs .link-nav { border: 0px transparent; font-size: 1.1rem; }
+.nav-tabs .link-nav:hover { border-style: none; padding-left: 1em; font-weight: bolder; }
+.nav-tabs .link-nav.active { color: #D8D8D8; background-color: transparent; border-style: none; }
 .tab-content { line-height: 1.5rem; }
 .tab-pane.active { border-bottom: none; }
 .no_underline:hover { border-bottom: none; }
