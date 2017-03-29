@@ -1,6 +1,6 @@
 html { font-size: 80%; }
 body { display: flex; min-height: 100vh; flex-direction: column; background-color: #1E0C1C; color: #D8D8D8;
-  font-family: 'Abel', sans-serif; letter-spacing: 1px; }
+  font-family: 'Abel', sans-serif; font-size: 1.2rem; letter-spacing: 1px; }
 #content { flex: 1; border-left: solid; border-right: solid; border-color: #190917; border-width: 1px;}
 
 h1, h2, h3, h4, h5, h6 { font-family: 'League Gothic'; font-weight: normal; }
@@ -55,10 +55,4 @@ p { color: #D8D8D8; font-size: 1rem; }
 }
 .img-border {
   border: 2px solid #B68000; outline: 1px solid #B68000; outline-offset: 5px;
-}
-.center-vert {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
 }
