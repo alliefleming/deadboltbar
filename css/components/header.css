@@ -1,7 +1,7 @@
 .navbar { padding-top: 1rem; letter-spacing: 1px; z-index: 99; display: inline-block; }
 .navbar-brand { display: inline-block; z-index: 99; }
-.link-nav { color: #BFBEBE; font-size: 1.2rem; text-transform: uppercase; display: inline-block; float: right; padding-left: 1rem; padding-right: 1rem; padding-top: .6rem; }
-.link-social { font-size: 1.4rem; display: inline-block; padding-top: .375rem; float: right; padding-left: .8rem; padding-right: .8rem; }
+.link-nav { color: #BFBEBE; font-size: .9rem; text-transform: uppercase; display: inline-block; float: right; padding-left: 1rem; padding-right: 1rem; padding-top: .6rem; }
+.link-social { font-size: 1rem; display: inline-block; padding-top: .5rem; float: right; padding-left: .8rem; padding-right: .8rem; }
 a { color: #BFBEBE; }
 a:active { color: #BFBEBE; }
 a:hover { color: #B68000; text-decoration: none; border-bottom: solid; border-radius: 1px; border-width: 2px;}

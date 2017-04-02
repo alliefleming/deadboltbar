@@ -1,4 +1,12 @@
-html { font-size: 80%; }
+html {
+  font-size: 16px;
+}
+@media (max-width: 900px) {
+  html { font-size: 15px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 14px; }
+}
 body { display: flex; min-height: 100vh; flex-direction: column; background-color: #1E0C1C; color: #D8D8D8;
   font-family: 'Abel', sans-serif; font-size: 1.2rem; letter-spacing: 1px; }
 #content { flex: 1; border-left: solid; border-right: solid; border-color: #190917; border-width: 1px;}
@@ -9,7 +17,7 @@ h2 { color: #B68000; font-size: 2.25rem; letter-spacing: 3.5px; font-weight: lig
 h3 { color: #B68000; font-size: 2rem; letter-spacing: 3.5px; }
 p { color: #D8D8D8; font-size: 1rem; }
 
-.display-4 { font-size: 3.2rem; line-height: 3.5rem; }
+.display-4 { font-size: 3rem; line-height: 3.5rem; }
 .nav-tabs { border-bottom: 1px solid #B68000; padding-bottom: .875rem; }
 .nav-tabs .link-nav { border: 0px transparent; font-size: 1.1rem; }
 .nav-tabs .link-nav:hover { border-style: none; padding-left: 1em; font-weight: bolder; }
@@ -19,7 +27,7 @@ p { color: #D8D8D8; font-size: 1rem; }
 .no_underline:hover { border-bottom: none; }
 
 /* BUTTONS */
-.btn-primary { background-color: transparent; border-color: #B68000; border-radius: 2px; text-transform: uppercase; color: #B68000; padding: 12px 30px; background-color: rgba(0,0,0,0.4); }
+.btn-primary { background-color: transparent; border-color: #B68000; border-radius: 2px; text-transform: uppercase; color: #B68000; padding: 12px 30px; background-color: rgba(0,0,0,0.4); font-size: 1rem; }
 .btn-primary:hover { color: #FFFFFF; background-color: #B68000; border-color: #B68000; padding: 12px 30px; border-width: 1px; }
 .btn-primary:focus { box-shadow: none; color: #FFFFFF; background-color: #B68000; border-color: #B68000; border-width: 1px; }
 
