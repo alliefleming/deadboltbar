@@ -28,6 +28,7 @@ p { color: #D8D8D8; font-size: 1rem; }
 .no_underline:hover { border-bottom: none; }
 
 /* BUTTONS */
+.btn { font-family: 'Abel', sans-serif; letter-spacing: 1px; }
 .btn-primary { background-color: transparent; border-color: #B68000; border-radius: 2px; text-transform: uppercase; color: #B68000; padding: 12px 30px; background-color: rgba(0,0,0,0.4); font-size: 1rem; }
 .btn-primary:hover { color: #FFFFFF; background-color: #B68000; border-color: #B68000; padding: 12px 30px; border-width: 1px; }
 .btn-primary:focus { box-shadow: none; color: #FFFFFF; background-color: #B68000; border-color: #B68000; border-width: 1px; }
