@@ -3,62 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Deadbolt Bar | Chicago, IL</title>
-    <!-- Bootstrap CSS -->
+    <title>Press | Deadbolt Bar | Chicago, IL</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/components/normalize.css/normalize.css">
-    <link rel="stylesheet" href="assets/fonts/league-gothic/stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/hero.css">
-    <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
     <script src="https://use.fontawesome.com/fa76deb4b2.js"></script>
   </head>
   <body>
     <div class="container" id="content">
-      <div class="navbar p-0 pt-3">
-        <ul class="p-0">
-          <!-- SOCIAL LINKS -->
-          <li class="link-social">
-            <a href="https://twitter.com/deadboltbar" class="no_underline">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="link-social">
-            <a href="https://www.instagram.com/deadboltbar/" class="no_underline">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-          <li class="link-social">
-            <a href="https://www.facebook.com/deadboltbar" class="no_underline">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <!-- NAVIGATION LINKS -->
-          <li class="link-nav">
-            <a href="contact.html">Contact</a>
-          </li>
-          <li class="link-nav">
-            <a class="active" href="press.html">Press</a>
-          </li>
-          <li class="link-nav">
-            <a href="private-events.html">Private Events</a>
-          </li>
-          <li class="link-nav">
-            <a href="events.html">Events</a>
-          </li>
-          <li class="link-nav">
-            <a href="menu.html">Menu</a>
-          </li>
-          <!-- LOGO NAV BRAND -->
-          <li class="navbar-brand float-left">
-            <a href="index.html" class="no_underline">
-              <img src="./images/deadbolt-logo.svg" class="img-fluid"/>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <div w3-include-html="includes/header.html"></div>
 
       <!-- HERO -->
       <div class="row">
@@ -117,53 +70,13 @@
         </div>
       </div>
 
-      <div class="footer-logo">
-        <footer class="mt-4">
-            <div class="row">
-              <div class="col col-md-4 offset-md-4">
-                <p class="pb-0 mb-1"><strong>HOURS</strong><br/>Mon – Fri, Sun: 5pm – 2 am<br/>Sat: 5 pm – 3 am</p>
-                <p class="my-1">–</p>
-                <p><a href="http://bit.ly/deadbolt-bar-chicago">2412 N Milwaukee Ave<br/>Chicago, IL 60647</a></p>
-              </div>
-              <div class="col col-md-4">
-                <p class="pb-0 mb-1"><strong>CONTACT</strong>
-                  <br/>
-                  <a href="mailto:info@deadboltbar.com">info@deadboltbar.com</a>
-                  <br/>
-                  <a href="tel:1-773-698-6101">773.698.6101</a>
-                </p>
-                <p class="mt-1 mb-2">–</p>
-                <ul>
-                  <li>
-                    <a href="https://www.facebook.com/deadboltbar" class="no_underline">
-                      <i class="fa fa-2x fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/deadboltbar/" class="no_underline">
-                      <i class="fa fa-2x fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/deadboltbar" class="no_underline">
-                      <i class="fa fa-2x fa-twitter"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <hr class="footer-hr"></hr>
-            <div class="row">
-              <div class="col text-center">
-                <p class="mb-0">&#169; 2017 Deadbolt Bar Chicago. All Rights Reserved. Created in <a href="http://bit.ly/oc-webdesign-allie-fleming" class="active"> California.</a></p>
-              </div>
-            </div>
-        </footer>
-      </div>
+      <div w3-include-html="includes/footer.html"></div>
     </div>
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>
+    w3IncludeHTML();
+    </script>
   </body>
 </html>

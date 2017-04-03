@@ -20,8 +20,9 @@ p { color: #D8D8D8; font-size: 1rem; }
 .display-4 { font-size: 3rem; line-height: 3.5rem; }
 .nav-tabs { border-bottom: 1px solid #B68000; padding-bottom: .875rem; }
 .nav-tabs .link-nav { border: 0px transparent; font-size: 1.1rem; }
-.nav-tabs .link-nav:hover { border-style: none; padding-left: 1em; font-weight: bolder; }
+.nav-tabs .link-nav:hover { border-style: none; font-weight: bolder; }
 .nav-tabs .link-nav.active { color: #D8D8D8; background-color: transparent; border-style: none; }
+.nav-tabs .link-nav.active:hover { color: #B68000; }
 .tab-content { line-height: 1.5rem; }
 .tab-pane.active { border-bottom: none; }
 .no_underline:hover { border-bottom: none; }
