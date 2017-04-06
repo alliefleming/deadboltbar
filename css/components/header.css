@@ -1,5 +1,6 @@
 .navbar { padding-top: 1rem; letter-spacing: 1px; z-index: 99; }
 .navbar-brand { display: inline-block; z-index: 99; }
+.navbar-toggler { color: #BFBEBE; }
 .link-nav { color: #BFBEBE; font-size: .9rem; text-transform: uppercase; display: inline-block; float: right; padding-left: 1rem; padding-right: 1rem; padding-top: .6rem; }
 .link-social { font-size: 1rem; display: inline-block; padding-top: .5rem; float: right; padding-left: .8rem; padding-right: .8rem; }
 a { color: #BFBEBE; }
