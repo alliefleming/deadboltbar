@@ -1,2 +1,2 @@
-.mapouter { overflow: hidden; height: 400px; width: 550px; }
-.gmap_canvas { background: none !important; height: 400px; width: 550px; }
+.mapouter { overflow: hidden; width: 100%; }
+.gmap_canvas { background: none !important; width: 100%; line-height: 0px; font-size: 0; }

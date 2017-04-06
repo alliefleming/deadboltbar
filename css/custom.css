@@ -2,14 +2,13 @@ html {
   font-size: 16px;
 }
 @media (max-width: 900px) {
-  html { font-size: 15px; }
+  html { font-size: 16px; }
 }
 @media (max-width: 400px) {
   html { font-size: 14px; }
 }
-body { display: flex; min-height: 100vh; flex-direction: column; background-color: #1E0C1C; color: #D8D8D8;
-  font-family: 'Abel', sans-serif; font-size: 1.2rem; letter-spacing: 1px; }
-#content { flex: 1; border-left: solid; border-right: solid; border-color: #190917; border-width: 1px;}
+body { display: flex; min-height: 100vh; flex-direction: column; color: #D8D8D8; font-family: 'Abel', sans-serif; font-size: 1.2rem; letter-spacing: 1px; background: url('../images/bg-pattern.svg') #1E0C1C; background-size: 340px; }
+#content { flex: 1; }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'League Gothic'; font-weight: normal; }
 h1 { color: #FFFFFF; font-size: 5.25rem; line-height: 5.875rem; letter-spacing: 6px; }
@@ -57,12 +56,11 @@ p { color: #D8D8D8; font-size: 1rem; }
   top: -14px;
 }
 .video-frame {
-  padding: 78px 65px;
   background-image: url('../images/video-frame.svg');
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
+  background-position:center;
 }
-.img-border {
-  border: 2px solid #B68000; outline: 1px solid #B68000; outline-offset: 5px;
-}
+.index-video { padding: 5.5rem 9.5rem; }
+
+.img-border { border: 2px solid #B68000; outline: 1px solid #B68000; outline-offset: 5px; }
