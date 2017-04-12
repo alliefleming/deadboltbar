@@ -13,7 +13,8 @@
   padding: 0px;
   margin: 0px;
   margin-top: -4.75rem;
+  margin-bottom: -65px;
 }
 
-.hero-content { position: absolute; top: 45%; left: 50%; transform: translate(-50%,-50%); }
-.btn-hero-home { margin-top: -7.5rem; }
+.hero-content { position: absolute; top: 48%; left: 50%; transform: translate(-50%,-50%); }
+.btn-hero-home { margin-top: -7.5rem; z-index: 99; }

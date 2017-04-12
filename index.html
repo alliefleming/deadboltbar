@@ -19,25 +19,29 @@
   </head>
   <body>
     <div class="container" id="content">
-      <div w3-include-html="includes/header.html"></div>
+    <div w3-include-html="includes/header.html"></div>
       <!-- HERO -->
       <div class="row">
         <div class="col hero hero-home">
           <div class="hero-content">
-            <img src="./images/hero-logo.svg" class="text-center img-fluid">
-            <p><a class="btn btn-primary btn-hero btn-hero-home hidden-sm-down" href="menu.html">See Our Menu</a></p>
+            <img src="./images/hero-logo.svg" class="text-center px-4" width="400px">
+            <p><a class="btn btn-primary btn-hero-home hidden-sm-down" href="menu.html">See Our Menu</a></p>
           </div>
         </div>
       </div>
 
       <div class="row justify-content-md-center">
-        <div class="col-12 col-md-8 col-lg-8 col-xl-8 p-0">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 p-0 hidden-xs-down">
           <div class="embed-responsive embed-responsive-16by9 video-frame">
             <iframe src="https://www.youtube.com/embed/UW9gXlbrC3U" class="embed-responsive-item index-video" allowfullscreen></iframe>
           </div>
         </div>
-        <br/>
-        <h2 class="text-white text-uppercase mt-4">Live Music. Good Food. Good Drinks</h2>
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 p-0">
+          <div class="embed-responsive embed-responsive-16by9 hidden-sm-up">
+            <iframe src="https://www.youtube.com/embed/UW9gXlbrC3U" class="embed-responsive-item" allowfullscreen></iframe>
+          </div>
+        </div>
+        <h2 class="text-white text-uppercase text-center mt-4">Live Music. Good Food. Good Drinks</h2>
       </div>
       <div class="row">
         <div class="col p-0">
