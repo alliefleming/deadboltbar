@@ -66,3 +66,14 @@ p { color: #D8D8D8; font-size: 1rem; }
 .index-video { padding: 11% 20%; }
 
 .img-border { border: 2px solid #B68000; outline: 1px solid #B68000; outline-offset: 5px; }
+
+.vert-center {
+    display: inline-block;
+    vertical-align: middle;
+    height: 500px;
+    border-style: solid;
+}
+
+.vert-center .vert-center-block {
+    display : inline-block;
+}
