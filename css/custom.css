@@ -9,6 +9,8 @@ html {
 }
 body { display: flex; min-height: 100vh; flex-direction: column; color: #D8D8D8; font-family: 'Abel', sans-serif; font-size: 1.2rem; letter-spacing: 1px; background: url('../images/bg-pattern.svg') #1E0C1C; background-size: 340px; }
 #content { flex: 1; }
+.z-down { position: relative; z-index: -100; }
+.z-up { position: relative; z-index: 100; }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'League Gothic'; font-weight: normal; }
 h1 { color: #FFFFFF; font-size: 5.25rem; line-height: 5.875rem; letter-spacing: 6px; }

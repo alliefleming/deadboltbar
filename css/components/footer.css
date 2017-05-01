@@ -1,5 +1,13 @@
-footer { bottom: 0; height: 200px; color: #BFBEBE; padding: 20px 0px 12px; font-size: .875rem; background-size: auto 400px; }
-.footer-bg { background-color: #1D182B; height: 250px; margin-top: 30px; margin-bottom: -365px; }
+footer { bottom: 0; height: 200px; color: #BFBEBE; font-size: .875rem; margin-top: -80px; }
+.subfooter { position: relative; z-index: 100; }
+.footer-hr { border-top: .5px solid #190917; text-align: center; }
+.footer-logo { background: url('/images/deadbolt-logo-color.svg') no-repeat top left; background-position: 2% 0%; height: 370px; padding-top: 126px; position: relative; z-index: -100; }
+@media (max-width: 576px) {
+  .footer-logo { background-image: none; }
+}
+.footer-text { margin-top: -250px; }
+.footer-bg { background-color: #1D182B; height: 250px; margin-top: -80px; position: relative; z-index: -1030; }
+
 footer p { color: #BFBEBE; font-size: .875rem; }
 footer a { color: #BFBEBE; }
 footer a:link { color: #BFBEBE; }
@@ -8,13 +16,5 @@ footer a:visited { color: #BFBEBE; }
 footer a:hover { color: #B68000; border-width: 1px; }
 footer a:active { color: #B68000; }
 footer p .active { color: #B68000; }
-
 footer ul { padding-left: 0; }
 footer ul li { display: inline-block; padding-right: .875rem; }
-
-.subfooter { position: relative; z-index: 99; }
-.footer-logo { background: url('/images/deadbolt-logo-color.svg') no-repeat top left; background-position: 2% 0%; height: 362px; padding-top: 126px; }
-@media (max-width: 576px) {
-  .footer-logo { background-image: none; }
-}
-.footer-hr { border-top: .5px solid #190917; text-align: center; }
